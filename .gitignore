@@ -1,0 +1,17 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Local environment and runtime data
+.env
+.env.*
+!.env.example
+backend/data/*.jsonl
